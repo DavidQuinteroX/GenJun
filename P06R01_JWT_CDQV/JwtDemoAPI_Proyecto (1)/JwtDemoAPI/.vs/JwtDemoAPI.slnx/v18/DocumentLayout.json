@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\david\\Desktop\\GenJun-Proyectos\\Proyectos\\P06R01_JWT_CDQV\\JwtDemoAPI_Proyecto (1)\\JwtDemoAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8248C623-864B-0D70-A795-FE232D425825}|JwtDemoAPI.csproj|c:\\users\\david\\desktop\\genjun-proyectos\\proyectos\\p06r01_jwt_cdqv\\jwtdemoapi_proyecto (1)\\jwtdemoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8248C623-864B-0D70-A795-FE232D425825}|JwtDemoAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8248C623-864B-0D70-A795-FE232D425825}|JwtDemoAPI.csproj|c:\\users\\david\\desktop\\genjun-proyectos\\proyectos\\p06r01_jwt_cdqv\\jwtdemoapi_proyecto (1)\\jwtdemoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8248C623-864B-0D70-A795-FE232D425825}|JwtDemoAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\david\\Desktop\\GenJun-Proyectos\\Proyectos\\P06R01_JWT_CDQV\\JwtDemoAPI_Proyecto (1)\\JwtDemoAPI\\Migrations\\20260609144316_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260609144316_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Desktop\\GenJun-Proyectos\\Proyectos\\P06R01_JWT_CDQV\\JwtDemoAPI_Proyecto (1)\\JwtDemoAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\david\\Desktop\\GenJun-Proyectos\\Proyectos\\P06R01_JWT_CDQV\\JwtDemoAPI_Proyecto (1)\\JwtDemoAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAIwG4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T15:03:23.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\david\\Desktop\\GenJun-Proyectos\\Proyectos\\P06R01_JWT_CDQV\\JwtDemoAPI_Proyecto (1)\\JwtDemoAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\david\\Desktop\\GenJun-Proyectos\\Proyectos\\P06R01_JWT_CDQV\\JwtDemoAPI_Proyecto (1)\\JwtDemoAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-09T14:44:25.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20260609144316_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Desktop\\GenJun-Proyectos\\Proyectos\\P06R01_JWT_CDQV\\JwtDemoAPI_Proyecto (1)\\JwtDemoAPI\\Migrations\\20260609144316_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260609144316_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\david\\Desktop\\GenJun-Proyectos\\Proyectos\\P06R01_JWT_CDQV\\JwtDemoAPI_Proyecto (1)\\JwtDemoAPI\\Migrations\\20260609144316_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260609144316_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T14:43:16.552Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
