@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aroma & Origen · Café de autor</title>
+    <meta name="description" content="Cafetería premium artesanal. Café de especialidad, postres y experiencias únicas en un ambiente cálido y elegante." />
+    <meta property="og:title" content="Aroma & Origen · Café de autor" />
+    <meta property="og:description" content="El arte del café perfecto. Momentos únicos comienzan con una taza." />
+    <meta property="og:type" content="website" />
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../css/cafe.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="120" tabindex="0">
+
+    <!-- NAVBAR -->
+    <nav id="mainNav" class="navbar navbar-expand-lg fixed-top navbar-cafe">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#hero">
+          <span class="brand-mark"><i class="bi bi-cup-hot-fill"></i></span>
+          <span class="brand-text">Aroma <em>&amp;</em> Origen</span>
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-label="Abrir menú">
+          <i class="bi bi-list fs-2 text-light"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+            <li class="nav-item"><a class="nav-link" href="#hero">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#menu">Menú</a></li>
+            <li class="nav-item"><a class="nav-link" href="#promos">Promociones</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ubicacion">Ubicación</a></li>
+            <li class="nav-item"><a class="nav-link" href="#comentarios">Comentarios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+            <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+              <a class="btn btn-gold" href="#menu"><i class="bi bi-bag-heart me-1"></i> Ordenar ahora</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <header id="hero" class="hero">
+      <video class="hero-video" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1920&q=80">
+        <source src="https://cdn.coverr.co/videos/coverr-pouring-a-cup-of-coffee-2806/1080p.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="steam">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="container hero-content text-center">
+        <p class="eyebrow reveal">Café de especialidad · Tueste artesanal</p>
+        <h1 class="display-1 hero-title reveal">El arte del <em>café perfecto</em></h1>
+        <p class="lead hero-sub reveal">Momentos únicos comienzan con una taza.</p>
+        <div class="d-flex flex-wrap justify-content-center gap-3 mt-4 reveal">
+          <a href="#menu" class="btn btn-gold btn-lg"><i class="bi bi-cup-straw me-2"></i>Ver menú</a>
+          <a href="#contacto" class="btn btn-outline-cream btn-lg"><i class="bi bi-calendar-heart me-2"></i>Reservar mesa</a>
+        </div>
+      </div>
+      <a href="#menu" class="scroll-indicator" aria-label="Desplazarse hacia abajo">
+        <span></span>
+      </a>
+    </header>
+
+    <!-- MENU -->
+    <section id="menu" class="section">
+      <div class="container">
+        <div class="section-head text-center reveal">
+          <span class="eyebrow">Nuestra carta</span>
+          <h2 class="section-title">Una selección <em>cuidada</em></h2>
+          <p class="section-sub">Granos de origen único, recetas pensadas para acompañar tu mejor momento.</p>
+        </div>
+
+        <ul class="nav nav-pills justify-content-center menu-tabs reveal" role="tablist">
+          <li class="nav-item"><button class="nav-link active" data-bs-toggle="pill" data-bs-target="#tab-cal">Cafés calientes</button></li>
+          <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-fri">Bebidas frías</button></li>
+          <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-pos">Postres</button></li>
+          <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-esp">Especialidades</button></li>
+        </ul>
+
+        <div class="tab-content mt-5">
+          <div id="tab-cal" class="tab-pane fade show active">
+            <div class="row g-4" id="menu-cal"></div>
+          </div>
+          <div id="tab-fri" class="tab-pane fade">
+            <div class="row g-4" id="menu-fri"></div>
+          </div>
+          <div id="tab-pos" class="tab-pane fade">
+            <div class="row g-4" id="menu-pos"></div>
+          </div>
+          <div id="tab-esp" class="tab-pane fade">
+            <div class="row g-4" id="menu-esp"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROMOS -->
+    <section id="promos" class="section section-dark">
+      <div class="container">
+        <div class="section-head text-center reveal">
+          <span class="eyebrow gold">Por tiempo limitado</span>
+          <h2 class="section-title text-cream">Promociones <em>de la casa</em></h2>
+        </div>
+        <div id="promoCarousel" class="carousel slide reveal" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#promoCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#promoCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#promoCarousel" data-bs-slide-to="2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="promo-card" style="background-image:url('https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=1600&q=80')">
+                <div class="promo-body">
+                  <span class="badge-gold">2x1</span>
+                  <h3>Dos cafés americanos<br/>por el precio de uno</h3>
+                  <p>De lunes a viernes, de 7:00 a 10:00 am. Comienza tu mañana acompañado.</p>
+                  <a href="#menu" class="btn btn-gold">Aprovechar</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="promo-card" style="background-image:url('https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=1600&q=80')">
+                <div class="promo-body">
+                  <span class="badge-gold">Combo</span>
+                  <h3>Café de autor +<br/>postre artesanal</h3>
+                  <p>Un cappuccino y nuestro brownie del día por solo $89. La pareja perfecta.</p>
+                  <a href="#menu" class="btn btn-gold">Quiero el combo</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="promo-card" style="background-image:url('https://images.unsplash.com/photo-1453614512568-c4024d13c247?auto=format&fit=crop&w=1600&q=80')">
+                <div class="promo-body">
+                  <span class="badge-gold">-20%</span>
+                  <h3>Descuento<br/>estudiantes</h3>
+                  <p>Presenta tu credencial vigente y obtén 20% en toda la carta, todos los días.</p>
+                  <a href="#menu" class="btn btn-gold">Más información</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" data-bs-target="#promoCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" data-bs-target="#promoCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCIA -->
+    <section id="experiencia" class="section">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 reveal">
+            <div class="exp-image-wrap">
+              <img src="https://images.unsplash.com/photo-1559496417-e7f25cb247f3?auto=format&fit=crop&w=1200&q=80" alt="Barista preparando café" />
+              <div class="exp-badge">
+                <span class="display-6">12</span>
+                <small>años creando momentos</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 reveal">
+            <span class="eyebrow">Sobre nosotros</span>
+            <h2 class="section-title">Más que café, <em>creamos experiencias</em></h2>
+            <p class="text-muted-cream">Trabajamos directamente con productores locales para llevarte el mejor grano. Cada taza es el resultado de un proceso cuidado, desde la finca hasta tu mesa.</p>
+            <div class="row g-4 mt-2">
+              <div class="col-sm-6">
+                <div class="feature"><i class="bi bi-award-fill"></i>
+                  <div><h5>Café seleccionado</h5><p>Granos de altura, tueste semanal en casa.</p></div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="feature"><i class="bi bi-cup-hot-fill"></i>
+                  <div><h5>Preparación artesanal</h5><p>Métodos manuales y máquinas de precisión.</p></div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="feature"><i class="bi bi-house-heart-fill"></i>
+                  <div><h5>Ambiente cómodo</h5><p>Un espacio cálido pensado para quedarse.</p></div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="feature"><i class="bi bi-stars"></i>
+                  <div><h5>Atención personal</h5><p>Baristas certificados que recuerdan tu pedido.</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- UBICACION -->
+    <section id="ubicacion" class="section section-cream">
+      <div class="container">
+        <div class="section-head text-center reveal">
+          <span class="eyebrow">Visítanos</span>
+          <h2 class="section-title">Encuéntranos <em>aquí</em></h2>
+        </div>
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-7 reveal">
+            <div class="map-wrap">
+              <iframe title="Mapa" src="https://www.google.com/maps?q=Coffee+Shop&output=embed" loading="lazy" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-lg-5 reveal">
+            <div class="location-card h-100">
+              <h3>Aroma &amp; Origen</h3>
+              <ul class="loc-list">
+                <li><i class="bi bi-geo-alt-fill"></i><span>Av. Reforma 1234<br/>Col. Centro, Ciudad</span></li>
+                <li><i class="bi bi-clock-fill"></i><span>Lun – Vie: 7:00 – 22:00<br/>Sáb – Dom: 8:00 – 23:00</span></li>
+                <li><i class="bi bi-telephone-fill"></i><span>+52 55 1234 5678</span></li>
+                <li><i class="bi bi-envelope-fill"></i><span>hola@aromayorigen.com</span></li>
+              </ul>
+              <a href="https://maps.google.com" target="_blank" rel="noopener" class="btn btn-gold w-100"><i class="bi bi-signpost-split me-2"></i>Cómo llegar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMENTARIOS -->
+    <section id="comentarios" class="section">
+      <div class="container">
+        <div class="section-head text-center reveal">
+          <span class="eyebrow">Comentarios</span>
+          <h2 class="section-title">Lo que dicen <em>nuestros clientes</em></h2>
+        </div>
+        <div class="row g-4" id="testimonios"></div>
+      </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section id="galeria" class="section section-cream">
+      <div class="container">
+        <div class="section-head text-center reveal">
+          <span class="eyebrow">Galería</span>
+          <h2 class="section-title">Pequeños <em>momentos</em></h2>
+        </div>
+        <div class="gallery-grid reveal">
+          <a class="g-item g-tall" href="#" style="background-image:url('https://images.unsplash.com/photo-1453614512568-c4024d13c247?auto=format&fit=crop&w=900&q=80')"></a>
+          <a class="g-item" href="#" style="background-image:url('https://images.unsplash.com/photo-1485808191679-5f86510681a2?auto=format&fit=crop&w=800&q=80')"></a>
+          <a class="g-item" href="#" style="background-image:url('https://images.unsplash.com/photo-1442975631115-c4f7b05b8a2c?auto=format&fit=crop&w=800&q=80')"></a>
+          <a class="g-item g-wide" href="#" style="background-image:url('https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=1400&q=80')"></a>
+          <a class="g-item" href="#" style="background-image:url('https://images.unsplash.com/photo-1481070555726-e2fe8357725c?auto=format&fit=crop&w=800&q=80')"></a>
+          <a class="g-item" href="#" style="background-image:url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80')"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO / FOOTER -->
+    <footer id="contacto" class="footer">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <a class="footer-brand d-flex align-items-center gap-2 mb-3" href="#hero">
+              <span class="brand-mark"><i class="bi bi-cup-hot-fill"></i></span>
+              <span class="brand-text">Aroma <em>&amp;</em> Origen</span>
+            </a>
+            <p class="text-cream-muted">Café artesanal, postres caseros y un ambiente pensado para quedarte un rato más.</p>
+            <div class="socials mt-3">
+              <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+              <a href="#" aria-label="X"><i class="bi bi-twitter-x"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <h6 class="footer-title">Horarios</h6>
+            <ul class="footer-list">
+              <li>Lunes – Viernes<span>7:00 – 22:00</span></li>
+              <li>Sábado<span>8:00 – 23:00</span></li>
+              <li>Domingo<span>8:00 – 21:00</span></li>
+            </ul>
+          </div>
+          <div class="col-lg-5">
+            <h6 class="footer-title">Escríbenos</h6>
+            <form id="contactForm" class="row g-2" novalidate>
+              <div class="col-sm-6"><input type="text" class="form-control form-cafe" placeholder="Nombre" required /></div>
+              <div class="col-sm-6"><input type="email" class="form-control form-cafe" placeholder="Email" required /></div>
+              <div class="col-12"><textarea class="form-control form-cafe" rows="3" placeholder="Mensaje" required></textarea></div>
+              <div class="col-12"><button class="btn btn-gold w-100" type="submit"><i class="bi bi-send me-2"></i>Enviar mensaje</button></div>
+              <div class="col-12"><small id="formMsg" class="text-cream-muted"></small></div>
+            </form>
+          </div>
+        </div>
+        <hr class="footer-sep" />
+        <div class="d-flex flex-wrap justify-content-between align-items-center">
+          <small class="text-cream-muted">© <span id="year"></span> Aroma &amp; Origen. Todos los derechos reservados.</small>
+          <small class="text-cream-muted">Hecho con <i class="bi bi-heart-fill text-gold"></i> y mucho café</small>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WHATSAPP FLOAT -->
+    <a href="https://wa.me/525512345678" target="_blank" rel="noopener" class="wa-float" aria-label="WhatsApp">
+      <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <!-- Toast cart -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3" style="z-index:1080;">
+      <div id="cartToast" class="toast align-items-center text-bg-dark border-0" role="alert">
+        <div class="d-flex">
+          <div class="toast-body"><i class="bi bi-bag-check me-2 text-gold"></i><span id="toastText">Agregado al carrito</span></div>
+          <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/cafe.js"></script>
+  </body>
+</html>
