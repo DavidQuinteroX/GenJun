@@ -1,0 +1,69 @@
+﻿@model P12R01_Calculadora_MVC_CDQV.Models.CalculadoraModel;
+@{
+    ViewData["Title"] = "Calculadora MVC";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h2 class="text-center mb-0">
+                        <i class="bi bi-calculator"></i> Calculadora MVC
+                    </h2>
+                </div>
+                <div class="card-body">
+                    @if (ViewBag.Error != null)
+                    {
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            <strong>Error:</strong> @ViewBag.Error
+                            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                        </div>
+                    }
+
+                    <form asp-action="Calcular" method="post">
+                        <div class="mb-3">
+                            <label class="form-label">Primer Número:</label>
+                            <input type="number" step="0.01" class="form-control form-control-lg"
+                                   asp-for="Numero1" required />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Operación:</label>
+                            <select class="form-select form-select-lg" asp-for="Operacion" required>
+                                <option value="">Seleccione una operación</option>
+                                <option value="sumar">Sumar</option>
+                                <option value="restar">Restar</option>
+                                <option value="multiplicar">Multiplicar</option>
+                                <option value="dividir">Dividir</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Segundo Número:</label>
+                            <input type="number" step="0.01" class="form-control form-control-lg"
+                                   asp-for="Numero2" required />
+                        </div>
+
+                        @if (Model.Resultado != null)
+                        {
+                            <div class="alert alert-success">
+                                <h4 class="alert-heading">Resultado:</h4>
+                                <p class="mb-0 fs-3">@Model.Resultado.Value.ToString("N2")</p>
+                            </div>
+
+                        }
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                <i class="bi bi-calculator-fill"></i> Calcular
+                            </button>
+                            <a asp-action="Limpiar" class="btn btn-secondary btn-lg">
+                                <i class="bi bi-arrow-clockwise"></i> Limpiar
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

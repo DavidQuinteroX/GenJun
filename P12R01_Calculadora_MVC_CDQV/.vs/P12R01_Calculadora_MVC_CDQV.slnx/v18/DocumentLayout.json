@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\david\\Desktop\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{376A80C5-A5AE-B84C-5068-2BC22BE52989}|P12R01_Calculadora_MVC_CDQV.csproj|c:\\users\\david\\desktop\\genjun-proyectos\\proyectos\\p12r01_calculadora_mvc_cdqv\\controllers\\calculadoracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{376A80C5-A5AE-B84C-5068-2BC22BE52989}|P12R01_Calculadora_MVC_CDQV.csproj|solutionrelative:controllers\\calculadoracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{376A80C5-A5AE-B84C-5068-2BC22BE52989}|P12R01_Calculadora_MVC_CDQV.csproj|c:\\users\\david\\desktop\\genjun-proyectos\\proyectos\\p12r01_calculadora_mvc_cdqv\\models\\calculadoramodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{376A80C5-A5AE-B84C-5068-2BC22BE52989}|P12R01_Calculadora_MVC_CDQV.csproj|solutionrelative:models\\calculadoramodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{376A80C5-A5AE-B84C-5068-2BC22BE52989}|P12R01_Calculadora_MVC_CDQV.csproj|c:\\users\\david\\desktop\\genjun-proyectos\\proyectos\\p12r01_calculadora_mvc_cdqv\\views\\calculadora\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{376A80C5-A5AE-B84C-5068-2BC22BE52989}|P12R01_Calculadora_MVC_CDQV.csproj|solutionrelative:views\\calculadora\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{376A80C5-A5AE-B84C-5068-2BC22BE52989}|P12R01_Calculadora_MVC_CDQV.csproj|c:\\users\\david\\desktop\\genjun-proyectos\\proyectos\\p12r01_calculadora_mvc_cdqv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{376A80C5-A5AE-B84C-5068-2BC22BE52989}|P12R01_Calculadora_MVC_CDQV.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Desktop\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\david\\Desktop\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T16:03:41.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\david\\Desktop\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\Views\\Calculadora\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Calculadora\\Index.cshtml",
+              "ToolTip": "C:\\Users\\david\\Desktop\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\Views\\Calculadora\\Index.cshtml",
+              "RelativeToolTip": "Views\\Calculadora\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T23:05:33.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalculadoraController.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Desktop\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\Controllers\\CalculadoraController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CalculadoraController.cs",
+              "ToolTip": "C:\\Users\\david\\Desktop\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\Controllers\\CalculadoraController.cs",
+              "RelativeToolTip": "Controllers\\CalculadoraController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T22:56:25.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalculadoraModel.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Desktop\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\Models\\CalculadoraModel.cs",
+              "RelativeDocumentMoniker": "Models\\CalculadoraModel.cs",
+              "ToolTip": "C:\\Users\\david\\Desktop\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\Models\\CalculadoraModel.cs",
+              "RelativeToolTip": "Models\\CalculadoraModel.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T22:44:26.814Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
