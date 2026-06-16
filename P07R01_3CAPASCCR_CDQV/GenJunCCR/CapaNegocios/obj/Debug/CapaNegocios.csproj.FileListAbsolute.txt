@@ -1,0 +1,12 @@
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P07R01_3CAPASCCR_CDQV\GenJunCCR\CapaNegocios\bin\Debug\CapaNegocios.dll
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P07R01_3CAPASCCR_CDQV\GenJunCCR\CapaNegocios\bin\Debug\CapaNegocios.pdb
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P07R01_3CAPASCCR_CDQV\GenJunCCR\CapaNegocios\bin\Debug\CapaDatos.dll
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P07R01_3CAPASCCR_CDQV\GenJunCCR\CapaNegocios\bin\Debug\CapaEntidades.dll
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P07R01_3CAPASCCR_CDQV\GenJunCCR\CapaNegocios\bin\Debug\CapaDatos.pdb
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P07R01_3CAPASCCR_CDQV\GenJunCCR\CapaNegocios\bin\Debug\CapaDatos.dll.config
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P07R01_3CAPASCCR_CDQV\GenJunCCR\CapaNegocios\bin\Debug\CapaEntidades.pdb
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P07R01_3CAPASCCR_CDQV\GenJunCCR\CapaNegocios\obj\Debug\CapaNegocios.csproj.AssemblyReference.cache
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P07R01_3CAPASCCR_CDQV\GenJunCCR\CapaNegocios\obj\Debug\CapaNegocios.csproj.CoreCompileInputs.cache
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P07R01_3CAPASCCR_CDQV\GenJunCCR\CapaNegocios\obj\Debug\CapaNego.1D246B3C.Up2Date
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P07R01_3CAPASCCR_CDQV\GenJunCCR\CapaNegocios\obj\Debug\CapaNegocios.dll
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P07R01_3CAPASCCR_CDQV\GenJunCCR\CapaNegocios\obj\Debug\CapaNegocios.pdb

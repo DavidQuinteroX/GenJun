@@ -1,0 +1,6 @@
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P07R01_3CAPASCCR_CDQV\GenJunCCR\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P07R01_3CAPASCCR_CDQV\GenJunCCR\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P07R01_3CAPASCCR_CDQV\GenJunCCR\CapaEntidades\obj\Debug\CapaEntidades.csproj.AssemblyReference.cache
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P07R01_3CAPASCCR_CDQV\GenJunCCR\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P07R01_3CAPASCCR_CDQV\GenJunCCR\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P07R01_3CAPASCCR_CDQV\GenJunCCR\CapaEntidades\obj\Debug\CapaEntidades.pdb

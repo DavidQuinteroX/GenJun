@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="CamionesWeb/CamionesWeb.csproj" Id="465f738c-372f-403b-93c5-a8e5e606d6eb" />
+  <Project Path="CapaDatos/CapaDatos.csproj" Id="b2c91c4d-a14f-462e-a343-30d2fba22eb7" />
+  <Project Path="CapaEntidades/CapaEntidades.csproj" Id="dfad7d7c-398c-40d5-8489-ca726410b618" />
+  <Project Path="CapaNegocios/CapaNegocios.csproj" Id="fcfa5ff2-8f3e-4132-8919-47dc84684315" />
+  <Project Path="CapaWindowsForms/CapaWindowsForms.csproj" Id="032d49c4-2945-467f-8405-6a02a3b62328" />
+</Solution>
