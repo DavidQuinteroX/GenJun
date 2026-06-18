@@ -1,0 +1,144 @@
+﻿@model IEnumerable<P15R01_MVC_CDQV.Choferes>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<main class="app-main">
+    <section class="app-section active" id="section-trucks">
+        <div class="container-fluid">
+
+            <div class="section-head">
+
+                <div>
+                    <span class="eyebrow">
+                        <i class="bi bi-person-badge"></i>
+                        Operadores
+                    </span>
+
+                    <h1 class="section-title">
+                        Choferes
+                    </h1>
+
+                    <p class="section-sub">
+                        disponibilidad de choferes.
+                    </p>
+                </div>
+
+                <a href="@Url.Action("Create")"
+                   class="btn btn-glow">
+                    <i class="bi bi-plus-lg"></i>
+                    Nuevo Chofer
+                </a>
+
+            </div>
+        </div>
+
+        <div class="glass-card p-0 overflow-hidden">
+
+            <div class="table-toolbar">
+
+                <div class="search-box">
+                    <i class="bi bi-search"></i>
+
+                    <input type="text"
+                           placeholder="Buscar matrícula, marca o modelo..." />
+                </div>
+
+            </div>
+        </div>
+
+
+        @*<p>
+                @Html.ActionLink("Create New", "Create")
+            </p>*@
+
+        <div class="glass-card">
+            <div class="table-responsive">
+                <table class="table glass-table mb-0">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Nombre</th>
+                            <th>ApPaterno</th>
+                            <th>ApMaterno</th>
+                            <th>Telefono</th>
+                            <th>FechaNacimiento</th>
+                            <th>Licencia</th>
+                            <th>UrlFoto</th>
+                            <th>Estado</th>
+                            <th>Registro</th>
+                            <th class="text-end">Acciones</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.IdChofer</td>
+
+                                <td>@item.Nombre</td>
+
+                                <td>@item.ApPaterno</td>
+
+                                <td>@item.ApMaterno</td>
+
+                                <td>@item.Telefono</td>
+
+                                <td>@item.FechaNacimiento Ton</td>
+
+                                <td>@item.Licencia km</td>
+
+                                <td>
+                                    <small class="text-muted">
+                                        @item.UrlFoto
+                                    </small>
+                                </td>
+
+                                <td>
+                                    @if (item.Disponibilidad)
+                                    {
+                                        <span class="badge-status b-success">
+                                            Disponible
+                                        </span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge-status b-danger">
+                                            No disponible
+                                        </span>
+                                    }
+                                </td>
+
+
+                                <td>
+                                    <small class="text-muted">
+                                        @item.FechaRegistro
+                                    </small>
+                                </td>
+
+                                <td class="text-end">
+                                    <a href="@Url.Action("Details", new { id = item.IdChofer })"
+                                       class="btn-icon">
+                                        <i class="bi bi-eye"></i>
+                                    </a>
+
+                                    <a href="@Url.Action("Edit", new { id = item.IdChofer })"
+                                       class="btn-icon">
+                                        <i class="bi bi-pencil"></i>
+                                    </a>
+
+                                    <a href="@Url.Action("Delete", new { id = item.IdChofer })"
+                                       class="btn-icon btn-delete">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</main>

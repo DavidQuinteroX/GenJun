@@ -1,0 +1,408 @@
+﻿@{
+    ViewBag.Title = "Panel de Control";
+}
+
+<main class="app-main">
+
+    <section class="app-section active" id="section-dashboard">
+
+        <div class="container-xxl">
+
+            <div class="section-head">
+
+                <div>
+                    <span class="eyebrow">
+                        <i class="bi bi-broadcast"></i>
+                        Centro de operaciones
+                    </span>
+
+                    <h1 class="section-title">
+                        Panel de control
+                    </h1>
+
+                    <p class="section-sub">
+                        Vista general de la flota, operadores y rutas activas.
+                    </p>
+
+                </div>
+
+
+                <div class="live-clock glass-chip">
+
+                    <i class="bi bi-circle-fill text-success pulse-dot"></i>
+
+                    <span id="liveClock">
+                        --:--:--
+                    </span>
+
+                </div>
+
+
+            </div>
+
+
+            <!-- KPIS -->
+
+            <div class="row g-4" id="kpiGrid"></div>
+
+
+
+            <div class="row g-4 mt-1">
+
+
+                <!-- ACTIVIDAD -->
+
+                <div class="col-lg-7">
+
+                    <div class="glass-card p-4 h-100">
+
+
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+
+                            <h5>
+                                <i class="bi bi-activity text-info me-2"></i>
+                                Actividad de flota
+                            </h5>
+
+
+                            <span class="glass-chip small">
+
+                                <i class="bi bi-lightning-charge-fill text-warning"></i>
+
+                                En vivo
+
+                            </span>
+
+
+                        </div>
+
+
+                        <div id="activityFeed"></div>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+                <!-- ESTADO FLOTA -->
+
+
+                <div class="col-lg-5">
+
+                    <div class="glass-card p-4 h-100">
+
+
+                        <h5 class="mb-3">
+
+                            <i class="bi bi-pie-chart-fill text-info me-2"></i>
+
+                            Estado de flota
+
+                        </h5>
+
+
+                        <div id="fleetStatus"></div>
+
+
+
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+    </section>
+
+
+</main>
+
+
+
+<script>
+
+
+const dashboardData = {
+
+
+    drivers:[
+        {name:"Carlos Ramírez",status:"En Ruta"},
+        {name:"María López",status:"Activo"},
+        {name:"Jorge Méndez",status:"Activo"}
+    ],
+
+
+    trucks:[
+
+        {status:"En Ruta"},
+        {status:"Disponible"},
+        {status:"Mantenimiento"}
+
+    ],
+
+
+    routes:[
+
+        {
+            origin:"CDMX",
+            destination:"Puebla",
+            status:"En Curso"
+        }
+
+    ],
+
+
+    activity:[
+
+        {
+            icon:"bi-truck",
+            text:"Unidad CCR-001 en ruta CDMX → Puebla"
+        },
+
+        {
+            icon:"bi-person-fill",
+            text:"Nuevo operador conectado"
+        },
+
+        {
+            icon:"bi-broadcast",
+            text:"Sistema iniciado correctamente"
+        }
+
+    ]
+
+};
+
+
+
+
+
+function renderDashboard(){
+
+
+
+let drivers = dashboardData.drivers.length;
+
+let trucks = dashboardData.trucks.length;
+
+let routes = dashboardData.routes.length;
+
+let active = dashboardData.trucks.filter(x=>x.status=="En Ruta").length;
+
+
+
+let cards=[
+
+
+{
+icon:"bi-people-fill",
+title:"Choferes",
+value:drivers,
+text:"Personal activo"
+},
+
+
+{
+icon:"bi-truck",
+title:"Camiones",
+value:trucks,
+text:"Flota registrada"
+},
+
+
+{
+icon:"bi-signpost",
+title:"Rutas",
+value:routes,
+text:"Operación activa"
+},
+
+
+{
+icon:"bi-broadcast",
+title:"En ruta",
+value:active,
+text:"Seguimiento GPS"
+}
+
+
+];
+
+
+
+document.querySelector("#kpiGrid").innerHTML = cards.map(c=>`
+
+<div class="col-md-6 col-xl">
+
+<div class="kpi">
+
+
+<span class="kpi-icon">
+
+<i class="bi ${c.icon}"></i>
+
+</span>
+
+
+<div class="kpi-label">
+${c.title}
+</div>
+
+
+<div class="kpi-value">
+${c.value}
+</div>
+
+
+<div class="kpi-trend">
+
+<i class="bi bi-arrow-up-right"></i>
+
+${c.text}
+
+</div>
+
+
+
+</div>
+
+</div>
+
+
+`).join("");
+
+
+
+
+
+document.querySelector("#fleetStatus").innerHTML=`
+
+<div class="fleet-row">
+
+<div class="fr-head">
+<span>En Ruta</span>
+<b>${active}</b>
+</div>
+
+
+<div class="fleet-bar">
+
+<span style="
+width:${active/trucks*100}%;
+background:#06B6D4">
+</span>
+
+</div>
+
+</div>
+
+
+
+<div class="fleet-row">
+
+<div class="fr-head">
+
+<span>Disponible</span>
+
+<b>
+${dashboardData.trucks.filter(x=>x.status=="Disponible").length}
+</b>
+
+</div>
+
+
+<div class="fleet-bar">
+
+<span style="
+width:40%;
+background:#10B981">
+
+</span>
+
+
+</div>
+
+</div>
+
+
+`;
+
+
+
+
+
+document.querySelector("#activityFeed").innerHTML =
+dashboardData.activity.map(a=>`
+
+<div class="activity-item">
+
+
+<span class="ai-icon">
+
+<i class="bi ${a.icon}"></i>
+
+</span>
+
+
+<div>
+
+<div class="ai-text">
+${a.text}
+</div>
+
+
+<div class="ai-time">
+Ahora
+</div>
+
+
+</div>
+
+
+</div>
+
+
+`).join("");
+
+
+
+}
+
+
+
+
+
+function clock(){
+
+document.querySelector("#liveClock")
+.innerHTML =
+new Date().toLocaleTimeString("es-MX");
+
+
+}
+
+
+document.addEventListener("DOMContentLoaded",()=>{
+
+renderDashboard();
+
+clock();
+
+setInterval(clock,1000);
+
+
+});
+
+
+
+</script>

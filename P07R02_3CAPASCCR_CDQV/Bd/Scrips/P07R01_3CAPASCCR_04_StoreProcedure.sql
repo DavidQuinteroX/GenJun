@@ -300,41 +300,39 @@ CREATE OR ALTER PROCEDURE dbo.sp_Update_Rutas
       @FechaSalida DATETIME,
       @FechaLlegada DATETIME,
       @ATiempo BIT,
-      @Distancia FLOAT,
-      @FechaRegistro DATETIME
+      @Distancia FLOAT
 AS
 BEGIN
     SET NOCOUNT ON;
+
     BEGIN TRY
         BEGIN TRANSACTION;
 
         UPDATE dbo.Rutas
-        SET IdChofer =@IdChofer,
+        SET IdChofer = @IdChofer,
             IdCamion = @IdCamion,
             Origen = @Origen,
             Destino = @Destino,
             FechaSalida = @FechaSalida,
-            FechaLlegada =@FechaLlegada,
+            FechaLlegada = @FechaLlegada,
             ATiempo = @ATiempo,
-            Distancia =@Distancia,
-            FechaRegistro = @FechaRegistro
-        WHERE IdRuta=@IdRuta;
+            Distancia = @Distancia
+        WHERE IdRuta = @IdRuta;
 
         IF @@ROWCOUNT = 0
-           THROW 50002,'No se encontro la ruta',1;
+            THROW 50002, 'No se encontró la ruta', 1;
 
         COMMIT TRANSACTION;
+
         SELECT 'Ruta actualizada correctamente' AS Mensaje;
 
-    END TRY 
+    END TRY
     BEGIN CATCH
-          IF @@TRANCOUNT > 0 ROLLBACK TRANSACTION;
-          THROW;
+        IF @@TRANCOUNT > 0 ROLLBACK TRANSACTION;
+        THROW;
     END CATCH
 END
 GO
-
-
 
 --================================================
 --SELECCIONAR RUTA DETALLE
@@ -375,6 +373,7 @@ BEGIN
         GETDATE()
     );
 END
+GO
 --=============================================
 --Existe Licencia
 --=============================================
@@ -531,21 +530,53 @@ BEGIN
 
      BEGIN TRY
            BEGIN TRANSACTION;
+
            DELETE FROM dbo.Rutas
            WHERE IdRuta = @IdRuta;
 
-           IF @@ROWCOUNT = 0 
-              PRINT 'No se encontro la ruta'
+           IF @@ROWCOUNT = 0
+              THROW 50003, 'No se encontró la ruta', 1;
 
            COMMIT TRANSACTION;
-      END TRY
-      BEGIN CATCH
+     END TRY
+     BEGIN CATCH
           IF @@TRANCOUNT > 0
             ROLLBACK TRANSACTION;
-            THROW;
-      END CATCH
+
+          THROW;
+     END CATCH
 END
 GO
-
-
-
+--================================================
+--SELECCIONAR RUTA DETALLE
+--================================================
+CREATE OR ALTER PROCEDURE dbo.sp_Select_Rutas_Detalle
+AS
+BEGIN
+     SET NOCOUNT ON;
+     SELECT
+           r.IdRuta,
+           r.IdChofer,
+           r.IdCamion,
+           r.Origen,
+           r.destino,
+           r.FechaSalida,
+           r.FechaLlegada,
+           r.ATiempo,
+           r.Distancia,
+           r.FechaRegistro,
+           --Chofer
+           c.Nombre AS NombreChofer,
+           c.Licencia ,
+           c.Telefono AS TelefonoChofer,
+           c.UrlFoto AS FotoChofer,
+           --Camion
+           cam.Matricula,
+           cam.UrlFoto AS FotoCamion
+     FROM Rutas AS r
+     INNER JOIN Choferes as c
+     ON r.IdChofer= c.IdChofer
+     INNER JOIN Camiones AS cam 
+     ON r.IdCamion = cam.IdCamion
+END
+GO

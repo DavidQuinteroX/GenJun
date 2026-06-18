@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P07R02_3CAPASCCR_CDQV\\GenJunCCR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{465F738C-372F-403B-93C5-A8E5E606D6EB}|CamionesWeb\\CamionesWeb.csproj|c:\\proyectostr\\genjun-proyectos\\proyectos\\p07r02_3capasccr_cdqv\\genjunccr\\camionesweb\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{DFAD7D7C-398C-40D5-8489-CA726410B618}|CapaEntidades\\CapaEntidades.csproj|c:\\proyectostr\\genjun-proyectos\\proyectos\\p07r02_3capasccr_cdqv\\genjunccr\\capaentidades\\e_ruta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFAD7D7C-398C-40D5-8489-CA726410B618}|CapaEntidades\\CapaEntidades.csproj|solutionrelative:capaentidades\\e_ruta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFA5FF2-8F3E-4132-8919-47DC84684315}|CapaNegocios\\CapaNegocios.csproj|C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P07R02_3CAPASCCR_CDQV\\GenJunCCR\\capanegocios\\n_chofer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFA5FF2-8F3E-4132-8919-47DC84684315}|CapaNegocios\\CapaNegocios.csproj|solutionrelative:capanegocios\\n_chofer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{465F738C-372F-403B-93C5-A8E5E606D6EB}|CamionesWeb\\CamionesWeb.csproj|C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P07R02_3CAPASCCR_CDQV\\GenJunCCR\\camionesweb\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{465F738C-372F-403B-93C5-A8E5E606D6EB}|CamionesWeb\\CamionesWeb.csproj|solutionrelative:camionesweb\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
@@ -19,6 +27,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "E_Ruta.cs",
+              "DocumentMoniker": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P07R02_3CAPASCCR_CDQV\\GenJunCCR\\CapaEntidades\\E_Ruta.cs",
+              "RelativeDocumentMoniker": "CapaEntidades\\E_Ruta.cs",
+              "ToolTip": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P07R02_3CAPASCCR_CDQV\\GenJunCCR\\CapaEntidades\\E_Ruta.cs",
+              "RelativeToolTip": "CapaEntidades\\E_Ruta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T14:29:40.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "N_Chofer.cs",
+              "DocumentMoniker": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P07R02_3CAPASCCR_CDQV\\GenJunCCR\\CapaNegocios\\N_Chofer.cs",
+              "RelativeDocumentMoniker": "CapaNegocios\\N_Chofer.cs",
+              "ToolTip": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P07R02_3CAPASCCR_CDQV\\GenJunCCR\\CapaNegocios\\N_Chofer.cs",
+              "RelativeToolTip": "CapaNegocios\\N_Chofer.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T14:15:57.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Contact.aspx",
               "DocumentMoniker": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P07R02_3CAPASCCR_CDQV\\GenJunCCR\\CamionesWeb\\Contact.aspx",
               "RelativeDocumentMoniker": "CamionesWeb\\Contact.aspx",
@@ -26,8 +60,7 @@
               "RelativeToolTip": "CamionesWeb\\Contact.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-06-16T07:35:16.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T07:35:16.447Z"
             }
           ]
         }

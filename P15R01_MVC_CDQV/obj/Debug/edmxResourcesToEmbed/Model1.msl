@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GenJunCCRModelStoreContainer" CdmEntityContainer="GenJunCCREntities">
+    <EntitySetMapping Name="Camiones">
+      <EntityTypeMapping TypeName="GenJunCCRModel.Camiones">
+        <MappingFragment StoreEntitySet="Camiones">
+          <ScalarProperty Name="IdCamion" ColumnName="IdCamion" />
+          <ScalarProperty Name="Matricula" ColumnName="Matricula" />
+          <ScalarProperty Name="TipoCamion" ColumnName="TipoCamion" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Capacidad" ColumnName="Capacidad" />
+          <ScalarProperty Name="Kilometraje" ColumnName="Kilometraje" />
+          <ScalarProperty Name="Disponibilidad" ColumnName="Disponibilidad" />
+          <ScalarProperty Name="UrlFoto" ColumnName="UrlFoto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Choferes">
+      <EntityTypeMapping TypeName="GenJunCCRModel.Choferes">
+        <MappingFragment StoreEntitySet="Choferes">
+          <ScalarProperty Name="IdChofer" ColumnName="IdChofer" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="ApPaterno" ColumnName="ApPaterno" />
+          <ScalarProperty Name="ApMaterno" ColumnName="ApMaterno" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="Licencia" ColumnName="Licencia" />
+          <ScalarProperty Name="UrlFoto" ColumnName="UrlFoto" />
+          <ScalarProperty Name="Disponibilidad" ColumnName="Disponibilidad" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rutas">
+      <EntityTypeMapping TypeName="GenJunCCRModel.Rutas">
+        <MappingFragment StoreEntitySet="Rutas">
+          <ScalarProperty Name="IdRuta" ColumnName="IdRuta" />
+          <ScalarProperty Name="IdChofer" ColumnName="IdChofer" />
+          <ScalarProperty Name="IdCamion" ColumnName="IdCamion" />
+          <ScalarProperty Name="Origen" ColumnName="Origen" />
+          <ScalarProperty Name="Destino" ColumnName="Destino" />
+          <ScalarProperty Name="FechaSalida" ColumnName="FechaSalida" />
+          <ScalarProperty Name="FechaLlegada" ColumnName="FechaLlegada" />
+          <ScalarProperty Name="ATiempo" ColumnName="ATiempo" />
+          <ScalarProperty Name="Distancia" ColumnName="Distancia" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="GenJunCCRModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VWCamiones">
+      <EntityTypeMapping TypeName="GenJunCCRModel.VWCamiones">
+        <MappingFragment StoreEntitySet="VWCamiones">
+          <ScalarProperty Name="IdCamion" ColumnName="IdCamion" />
+          <ScalarProperty Name="Matricula" ColumnName="Matricula" />
+          <ScalarProperty Name="TipoCamion" ColumnName="TipoCamion" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Capacidad" ColumnName="Capacidad" />
+          <ScalarProperty Name="Kilometraje" ColumnName="Kilometraje" />
+          <ScalarProperty Name="UrlFoto" ColumnName="UrlFoto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VWChoferes">
+      <EntityTypeMapping TypeName="GenJunCCRModel.VWChoferes">
+        <MappingFragment StoreEntitySet="VWChoferes">
+          <ScalarProperty Name="IdChofer" ColumnName="IdChofer" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="ApPaterno" ColumnName="ApPaterno" />
+          <ScalarProperty Name="ApMaterno" ColumnName="ApMaterno" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="Licencia" ColumnName="Licencia" />
+          <ScalarProperty Name="UrlFoto" ColumnName="UrlFoto" />
+          <ScalarProperty Name="Disponibilidad" ColumnName="Disponibilidad" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VWRutas">
+      <EntityTypeMapping TypeName="GenJunCCRModel.VWRutas">
+        <MappingFragment StoreEntitySet="VWRutas">
+          <ScalarProperty Name="IdRuta" ColumnName="IdRuta" />
+          <ScalarProperty Name="IdChofer" ColumnName="IdChofer" />
+          <ScalarProperty Name="IdCamion" ColumnName="IdCamion" />
+          <ScalarProperty Name="Origen" ColumnName="Origen" />
+          <ScalarProperty Name="Destino" ColumnName="Destino" />
+          <ScalarProperty Name="FechaSalida" ColumnName="FechaSalida" />
+          <ScalarProperty Name="FechaLlegada" ColumnName="FechaLlegada" />
+          <ScalarProperty Name="ATiempo" ColumnName="ATiempo" />
+          <ScalarProperty Name="Distancia" ColumnName="Distancia" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="Insert_Camion" FunctionName="GenJunCCRModel.Store.Insert_Camion" />
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="GenJunCCRModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="GenJunCCRModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_Delete_Camion" FunctionName="GenJunCCRModel.Store.sp_Delete_Camion" />
+    <FunctionImportMapping FunctionImportName="sp_Delete_Chofer" FunctionName="GenJunCCRModel.Store.sp_Delete_Chofer" />
+    <FunctionImportMapping FunctionImportName="sp_Delete_Ruta" FunctionName="GenJunCCRModel.Store.sp_Delete_Ruta" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="GenJunCCRModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_Existe_Licencia" FunctionName="GenJunCCRModel.Store.sp_Existe_Licencia" />
+    <FunctionImportMapping FunctionImportName="sp_Existe_Matricula" FunctionName="GenJunCCRModel.Store.sp_Existe_Matricula" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="GenJunCCRModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GenJunCCRModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="GenJunCCRModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GenJunCCRModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_Insert_Choferes" FunctionName="GenJunCCRModel.Store.sp_Insert_Choferes" />
+    <FunctionImportMapping FunctionImportName="sp_Insert_Rutas" FunctionName="GenJunCCRModel.Store.sp_Insert_Rutas" />
+    <FunctionImportMapping FunctionImportName="sp_Listar_Camiones" FunctionName="GenJunCCRModel.Store.sp_Listar_Camiones">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GenJunCCRModel.sp_Listar_Camiones_Result">
+          <ScalarProperty Name="IdCamion" ColumnName="IdCamion" />
+          <ScalarProperty Name="Matricula" ColumnName="Matricula" />
+          <ScalarProperty Name="TipoCamion" ColumnName="TipoCamion" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Capacidad" ColumnName="Capacidad" />
+          <ScalarProperty Name="Kilometraje" ColumnName="Kilometraje" />
+          <ScalarProperty Name="Disponibilidad" ColumnName="Disponibilidad" />
+          <ScalarProperty Name="UrlFoto" ColumnName="UrlFoto" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_Obtener_Camion_ID" FunctionName="GenJunCCRModel.Store.sp_Obtener_Camion_ID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GenJunCCRModel.sp_Obtener_Camion_ID_Result">
+          <ScalarProperty Name="IdCamion" ColumnName="IdCamion" />
+          <ScalarProperty Name="Matricula" ColumnName="Matricula" />
+          <ScalarProperty Name="TipoCamion" ColumnName="TipoCamion" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Capacidad" ColumnName="Capacidad" />
+          <ScalarProperty Name="Kilometraje" ColumnName="Kilometraje" />
+          <ScalarProperty Name="Disponibilidad" ColumnName="Disponibilidad" />
+          <ScalarProperty Name="UrlFoto" ColumnName="UrlFoto" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="GenJunCCRModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_Select_Camion" FunctionName="GenJunCCRModel.Store.sp_Select_Camion">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GenJunCCRModel.sp_Select_Camion_Result">
+          <ScalarProperty Name="IdCamion" ColumnName="IdCamion" />
+          <ScalarProperty Name="Matricula" ColumnName="Matricula" />
+          <ScalarProperty Name="TipoCamion" ColumnName="TipoCamion" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Capacidad" ColumnName="Capacidad" />
+          <ScalarProperty Name="Kilometraje" ColumnName="Kilometraje" />
+          <ScalarProperty Name="Disponibilidad" ColumnName="Disponibilidad" />
+          <ScalarProperty Name="UrlFoto" ColumnName="UrlFoto" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_Select_Chofer" FunctionName="GenJunCCRModel.Store.sp_Select_Chofer">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GenJunCCRModel.sp_Select_Chofer_Result">
+          <ScalarProperty Name="IdChofer" ColumnName="IdChofer" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="ApPaterno" ColumnName="ApPaterno" />
+          <ScalarProperty Name="ApMaterno" ColumnName="ApMaterno" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="Licencia" ColumnName="Licencia" />
+          <ScalarProperty Name="UrlFoto" ColumnName="UrlFoto" />
+          <ScalarProperty Name="Disponibilidad" ColumnName="Disponibilidad" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_Select_Rutas" FunctionName="GenJunCCRModel.Store.sp_Select_Rutas">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GenJunCCRModel.sp_Select_Rutas_Result">
+          <ScalarProperty Name="IdRuta" ColumnName="IdRuta" />
+          <ScalarProperty Name="IdChofer" ColumnName="IdChofer" />
+          <ScalarProperty Name="IdCamion" ColumnName="IdCamion" />
+          <ScalarProperty Name="Origen" ColumnName="Origen" />
+          <ScalarProperty Name="Destino" ColumnName="Destino" />
+          <ScalarProperty Name="FechaSalida" ColumnName="FechaSalida" />
+          <ScalarProperty Name="FechaLlegada" ColumnName="FechaLlegada" />
+          <ScalarProperty Name="ATiempo" ColumnName="ATiempo" />
+          <ScalarProperty Name="Distancia" ColumnName="Distancia" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_Select_Rutas_Detalle" FunctionName="GenJunCCRModel.Store.sp_Select_Rutas_Detalle">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GenJunCCRModel.sp_Select_Rutas_Detalle_Result">
+          <ScalarProperty Name="IdRuta" ColumnName="IdRuta" />
+          <ScalarProperty Name="IdChofer" ColumnName="IdChofer" />
+          <ScalarProperty Name="IdCamion" ColumnName="IdCamion" />
+          <ScalarProperty Name="Origen" ColumnName="Origen" />
+          <ScalarProperty Name="destino" ColumnName="destino" />
+          <ScalarProperty Name="FechaSalida" ColumnName="FechaSalida" />
+          <ScalarProperty Name="FechaLlegada" ColumnName="FechaLlegada" />
+          <ScalarProperty Name="ATiempo" ColumnName="ATiempo" />
+          <ScalarProperty Name="Distancia" ColumnName="Distancia" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+          <ScalarProperty Name="NombreChofer" ColumnName="NombreChofer" />
+          <ScalarProperty Name="Licencia" ColumnName="Licencia" />
+          <ScalarProperty Name="TelefonoChofer" ColumnName="TelefonoChofer" />
+          <ScalarProperty Name="FotoChofer" ColumnName="FotoChofer" />
+          <ScalarProperty Name="Matricula" ColumnName="Matricula" />
+          <ScalarProperty Name="FotoCamion" ColumnName="FotoCamion" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_Update_Camion" FunctionName="GenJunCCRModel.Store.sp_Update_Camion" />
+    <FunctionImportMapping FunctionImportName="sp_Update_Choferes" FunctionName="GenJunCCRModel.Store.sp_Update_Choferes" />
+    <FunctionImportMapping FunctionImportName="sp_Update_Rutas" FunctionName="GenJunCCRModel.Store.sp_Update_Rutas" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="GenJunCCRModel.Store.sp_upgraddiagrams" />
+  </EntityContainerMapping>
+</Mapping>

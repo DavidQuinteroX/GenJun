@@ -1,0 +1,213 @@
+﻿@model IEnumerable<P15R01_MVC_CDQV.Rutas>
+
+@{
+    ViewBag.Title = "Index";
+}
+<main class="app-main">
+    <section class="app-section active" id="section-trucks">
+        <div class="container-fluid">
+
+            <div class="section-head">
+
+                <div>
+                    <span class="eyebrow">
+                        <i class="bi bi-signpost-split"></i>
+                        Logística
+                    </span>
+
+                    <h1 class="section-title">
+                        Rutas
+                    </h1>
+
+                    <p class="section-sub">
+                        Asignación y seguimiento de trayectos
+                    </p>
+                </div>
+
+                <a href="@Url.Action("Create")"
+                   class="btn btn-glow">
+                    <i class="bi bi-plus-lg"></i>
+                    Nueva Ruta
+                </a>
+
+            </div>
+        </div>
+
+        <div class="glass-card p-0 overflow-hidden">
+
+            <div class="table-toolbar">
+
+                <div class="search-box">
+                    <i class="bi bi-search"></i>
+
+                    <input type="text"
+                           placeholder="Buscar matrícula, marca o modelo..." />
+                </div>
+
+            </div>
+        </div>
+
+
+        @*<p>
+                @Html.ActionLink("Create New", "Create")
+            </p>*@
+
+        <div class="glass-card">
+            <div class="table-responsive">
+                <table class="table glass-table mb-0">
+                    <thead>
+                        <tr>
+                            <th>IdRuta</th>
+                            <th>IdChofer</th>
+                            <th>IdCamion</th>
+                            <th>Origen</th>
+                            <th>Destino</th>
+                            <th>FechaSalida</th>
+                            <th>FechaLlegada</th>
+                            <th>ATiempo</th>
+                            <th>Distancia</th>
+                            <th>FechaRegistro</th>                            
+                            <th class="text-end">Acciones</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.IdRuta</td>
+
+                                <td>@item.IdChofer</td>
+
+                                <td>@item.IdCamion</td>
+
+                                <td>@item.Origen</td>
+
+                                <td>@item.Destino</td>
+
+                                <td>@item.FechaSalida</td>
+
+                                <td>@item.FechaLlegada</td>
+
+
+                                <td>
+                                    @if (item.ATiempo)
+                                    {
+                                        <span class="badge-status b-success">
+                                            A TIEMPO
+                                        </span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge-status b-danger">
+                                            Retrasado
+                                        </span>
+                                    }
+                                </td>
+                                
+
+                                <td>@item.Distancia</td>
+
+                                <td>@item.FechaRegistro</td>
+
+
+                                <td class="text-end">
+                                    <a href="@Url.Action("Details", new { id = item.IdRuta })"
+                                       class="btn-icon">
+                                        <i class="bi bi-eye"></i>
+                                    </a>
+
+                                    <a href="@Url.Action("Edit", new { id = item.IdRuta })"
+                                       class="btn-icon">
+                                        <i class="bi bi-pencil"></i>
+                                    </a>
+
+                                    <a href="@Url.Action("Delete", new { id = item.IdRuta })"
+                                       class="btn-icon btn-delete">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</main>
+
+@*<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Origen)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Destino)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaSalida)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaLlegada)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ATiempo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Distancia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaRegistro)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Camiones.Matricula)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Choferes.Nombre)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Origen)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Destino)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaSalida)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaLlegada)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ATiempo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Distancia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaRegistro)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Camiones.Matricula)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Choferes.Nombre)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IdRuta }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IdRuta }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IdRuta })
+        </td>
+    </tr>
+}
+
+</table>*@

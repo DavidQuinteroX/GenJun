@@ -1,0 +1,163 @@
+﻿@model P15R01_MVC_CDQV.Choferes
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<main class="app-main">
+    <section class="app-section active" id="section-trucks">
+        <div class="container-fluid">
+
+            <div class="section-head">
+
+                <div>
+
+                    <div class="d-flex align-items-center gap-2">
+
+                        <h1 class="section-title m-0">
+                            Delete
+                        </h1>
+                        <span class="eyebrow">
+                            <i class="bi  bi-trash3"></i>
+                        </span>
+                    </div>
+
+
+                    <h2 class="section-sub">Choferes</h2>
+                </div>
+
+            </div>
+        </div>
+
+        <div>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Nombre)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.ApPaterno)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.ApPaterno)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.ApMaterno)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.ApMaterno)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Telefono)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Telefono)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.FechaNacimiento)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.FechaNacimiento)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Licencia)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Licencia)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.UrlFoto)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.UrlFoto)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Disponibilidad)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Disponibilidad)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.FechaRegistro)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.FechaRegistro)
+                </dd>
+
+            </dl>
+
+        </div>
+        <div class="d-flex gap-2 mt-4">
+
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-actions no-color">
+                    <input type="submit" value="Delete" class="btn btn-default" /> |
+                </div>
+            }
+
+            @Html.ActionLink(
+                " Regresar",
+                "Index",
+                null,
+                new { @class = "btn btn-outline-secondary bi bi-arrow-left" }
+            )
+
+        </div>
+    </section>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,130 @@
+﻿@model P15R01_MVC_CDQV.Rutas
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<main class="app-main">
+    <section class="app-section active" id="section-trucks">
+        <div class="container-fluid">
+
+            <div class="section-head">
+
+                <div>
+
+                    <div class="d-flex align-items-center gap-2">
+
+                        <h1 class="section-title m-0">
+                            Delete
+                        </h1>
+                        <span class="eyebrow">
+                            <i class="bi  bi-trash3"></i>
+                        </span>
+                    </div>
+
+
+                    <h2 class="section-sub">Rutas</h2>
+                </div>
+
+            </div>
+        </div>
+
+        <div>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Origen)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Origen)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Destino)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Destino)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.FechaSalida)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.FechaSalida)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.FechaLlegada)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.FechaLlegada)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.ATiempo)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.ATiempo)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Distancia)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Distancia)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.FechaRegistro)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.FechaRegistro)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Camiones.Matricula)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Camiones.Matricula)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Choferes.Nombre)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Choferes.Nombre)
+                </dd>
+
+            </dl>
+
+        </div>
+        <div class="d-flex gap-2 mt-4">
+
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-actions no-color">
+                    <input type="submit" value="Delete" class="btn btn-default" /> |
+                </div>
+            }
+
+            @Html.ActionLink(
+                " Regresar",
+                "Index",
+                null,
+                new { @class = "btn btn-outline-secondary bi bi-arrow-left" }
+            )
+
+        </div>
+    </section>
+</main>

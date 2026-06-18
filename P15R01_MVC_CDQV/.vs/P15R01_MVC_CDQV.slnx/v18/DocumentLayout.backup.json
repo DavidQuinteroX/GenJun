@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P15R01_MVC_CDQV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4D28E-DB9B-417A-80B1-D66EDCC75C32}|P15R01_MVC_CDQV.csproj|c:\\proyectostr\\genjun-proyectos\\proyectos\\p15r01_mvc_cdqv\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{4DA4D28E-DB9B-417A-80B1-D66EDCC75C32}|P15R01_MVC_CDQV.csproj|solutionrelative:model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P15R01_MVC_CDQV\\Model1.edmx",
+              "RelativeDocumentMoniker": "Model1.edmx",
+              "ToolTip": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P15R01_MVC_CDQV\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2026-06-16T18:46:18.493Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
