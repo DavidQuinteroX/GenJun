@@ -1,0 +1,7 @@
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\P14R01_WFC_CDQV\bin\P14R01_WFC_CDQV.dll.config
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\P14R01_WFC_CDQV\bin\P14R01_WFC_CDQV.dll
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\P14R01_WFC_CDQV\bin\P14R01_WFC_CDQV.pdb
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\P14R01_WFC_CDQV\obj\Debug\P14R01_WFC_CDQV.csproj.AssemblyReference.cache
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\P14R01_WFC_CDQV\obj\Debug\P14R01_WFC_CDQV.csproj.CoreCompileInputs.cache
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\P14R01_WFC_CDQV\obj\Debug\P14R01_WFC_CDQV.dll
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\P14R01_WFC_CDQV\obj\Debug\P14R01_WFC_CDQV.pdb

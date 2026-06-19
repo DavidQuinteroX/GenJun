@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "..\\CCRWcf\\CCRWcf.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\ClienteCCRWcf\\ClienteCCRWcf.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\CCRWcf\bin\CCRWcf.dll.config
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\CCRWcf\bin\CCRWcf.dll
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\CCRWcf\bin\CCRWcf.pdb
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\CCRWcf\obj\Debug\CCRWcf.csproj.AssemblyReference.cache
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\CCRWcf\obj\Debug\CCRWcf.csproj.CoreCompileInputs.cache
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\CCRWcf\obj\Debug\CCRWcf.dll
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\CCRWcf\obj\Debug\CCRWcf.pdb

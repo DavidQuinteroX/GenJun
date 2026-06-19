@@ -1,0 +1,7 @@
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\ClienteWCF\bin\Debug\ClienteWCF.exe.config
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\ClienteWCF\bin\Debug\ClienteWCF.exe
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\ClienteWCF\bin\Debug\ClienteWCF.pdb
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\ClienteWCF\obj\Debug\ClienteWCF.csproj.AssemblyReference.cache
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\ClienteWCF\obj\Debug\ClienteWCF.csproj.CoreCompileInputs.cache
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\ClienteWCF\obj\Debug\ClienteWCF.exe
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\ClienteWCF\obj\Debug\ClienteWCF.pdb

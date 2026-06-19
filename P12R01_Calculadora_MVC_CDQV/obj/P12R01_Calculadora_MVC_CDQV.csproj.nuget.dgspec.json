@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\david\\Desktop\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\P12R01_Calculadora_MVC_CDQV.csproj": {}
+    "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\P12R01_Calculadora_MVC_CDQV.csproj": {}
   },
   "projects": {
-    "C:\\Users\\david\\Desktop\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\P12R01_Calculadora_MVC_CDQV.csproj": {
+    "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\P12R01_Calculadora_MVC_CDQV.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\david\\Desktop\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\P12R01_Calculadora_MVC_CDQV.csproj",
+        "projectUniqueName": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\P12R01_Calculadora_MVC_CDQV.csproj",
         "projectName": "P12R01_Calculadora_MVC_CDQV",
-        "projectPath": "C:\\Users\\david\\Desktop\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\P12R01_Calculadora_MVC_CDQV.csproj",
+        "projectPath": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\P12R01_Calculadora_MVC_CDQV.csproj",
         "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\david\\Desktop\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\obj\\",
+        "outputPath": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
