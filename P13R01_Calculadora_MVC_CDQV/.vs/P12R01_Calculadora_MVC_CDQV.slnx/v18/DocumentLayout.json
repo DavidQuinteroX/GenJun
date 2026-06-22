@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{376A80C5-A5AE-B84C-5068-2BC22BE52989}|P12R01_Calculadora_MVC_CDQV.csproj|c:\\proyectostr\\genjun-proyectos\\proyectos\\p12r01_calculadora_mvc_cdqv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{376A80C5-A5AE-B84C-5068-2BC22BE52989}|P12R01_Calculadora_MVC_CDQV.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{376A80C5-A5AE-B84C-5068-2BC22BE52989}|P12R01_Calculadora_MVC_CDQV.csproj|c:\\proyectostr\\genjun-proyectos\\proyectos\\p12r01_calculadora_mvc_cdqv\\views\\calculadora\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{376A80C5-A5AE-B84C-5068-2BC22BE52989}|P12R01_Calculadora_MVC_CDQV.csproj|solutionrelative:views\\calculadora\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{376A80C5-A5AE-B84C-5068-2BC22BE52989}|P12R01_Calculadora_MVC_CDQV.csproj|c:\\proyectostr\\genjun-proyectos\\proyectos\\p12r01_calculadora_mvc_cdqv\\controllers\\rendimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{376A80C5-A5AE-B84C-5068-2BC22BE52989}|P12R01_Calculadora_MVC_CDQV.csproj|solutionrelative:controllers\\rendimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{376A80C5-A5AE-B84C-5068-2BC22BE52989}|P12R01_Calculadora_MVC_CDQV.csproj|c:\\proyectostr\\genjun-proyectos\\proyectos\\p12r01_calculadora_mvc_cdqv\\views\\rendimiento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{376A80C5-A5AE-B84C-5068-2BC22BE52989}|P12R01_Calculadora_MVC_CDQV.csproj|solutionrelative:views\\rendimiento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{376A80C5-A5AE-B84C-5068-2BC22BE52989}|P12R01_Calculadora_MVC_CDQV.csproj|c:\\proyectostr\\genjun-proyectos\\proyectos\\p12r01_calculadora_mvc_cdqv\\models\\rendimientomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{376A80C5-A5AE-B84C-5068-2BC22BE52989}|P12R01_Calculadora_MVC_CDQV.csproj|solutionrelative:models\\rendimientomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RendimientoController.cs",
+              "DocumentMoniker": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\Controllers\\RendimientoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RendimientoController.cs",
+              "ToolTip": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\Controllers\\RendimientoController.cs",
+              "RelativeToolTip": "Controllers\\RendimientoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T00:34:50.154Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\Views\\Calculadora\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Calculadora\\Index.cshtml",
+              "ToolTip": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\Views\\Calculadora\\Index.cshtml",
+              "RelativeToolTip": "Views\\Calculadora\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-19T02:17:09.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-19T00:39:38.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\Views\\Rendimiento\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Rendimiento\\Index.cshtml",
+              "ToolTip": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\Views\\Rendimiento\\Index.cshtml",
+              "RelativeToolTip": "Views\\Rendimiento\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-19T00:38:58.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RendimientoModel.cs",
+              "DocumentMoniker": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\Models\\RendimientoModel.cs",
+              "RelativeDocumentMoniker": "Models\\RendimientoModel.cs",
+              "ToolTip": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P12R01_Calculadora_MVC_CDQV\\Models\\RendimientoModel.cs",
+              "RelativeToolTip": "Models\\RendimientoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T00:34:11.381Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

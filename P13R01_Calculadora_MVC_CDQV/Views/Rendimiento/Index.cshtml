@@ -1,0 +1,85 @@
+﻿@model P12R01_Calculadora_MVC_CDQV.Models.RendimientoModel
+
+@{
+    ViewData["Title"] = "Calculadora de Rendimiento";
+}
+
+<div class="container mt-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-md-6">
+
+            <div class="card shadow-lg border-0 rounded-4">
+
+                <div class="card-header bg-primary text-white text-center rounded-top-4">
+                    <h2 class="mb-0">🚗 Calculadora de Rendimiento</h2>
+                </div>
+
+                <div class="card-body p-4">
+
+                    <form asp-action="Calcular" method="post">
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">
+                                Kilómetros recorridos
+                            </label>
+
+                            <input asp-for="Kilometros"
+                                   class="form-control form-control-lg"
+                                   type="number"
+                                   step="0.01"
+                                   placeholder="Ejemplo: 450"
+                                   required />
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="form-label fw-bold">
+                                Litros consumidos
+                            </label>
+
+                            <input asp-for="Litros"
+                                   class="form-control form-control-lg"
+                                   type="number"
+                                   step="0.01"
+                                   placeholder="Ejemplo: 30"
+                                   required />
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit"
+                                    class="btn btn-success btn-lg">
+                                Calcular Rendimiento
+                            </button>
+                        </div>
+
+                    </form>
+
+                    @if (Model != null && Model.Rendimiento > 0)
+                    {
+                        <div class="mt-4">
+
+                            <div class="alert alert-info text-center">
+
+                                <h4 class="mb-3">
+                                    Resultado
+                                </h4>
+
+                                <h2 class="text-primary fw-bold">
+                                    @Model.Rendimiento.ToString("0.00") km/L
+                                </h2>
+
+                            </div>
+
+                        </div>
+                    }
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
