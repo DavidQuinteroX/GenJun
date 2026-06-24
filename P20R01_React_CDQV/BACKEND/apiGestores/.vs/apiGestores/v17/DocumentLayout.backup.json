@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P20R01_React_CDQV\\BACKEND\\apiGestores\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D43B7526-BF64-4592-8FDD-DD025DF79853}|apiGestores.csproj|c:\\proyectostr\\genjun-proyectos\\proyectos\\p20r01_react_cdqv\\backend\\apigestores\\controllers\\gestorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43B7526-BF64-4592-8FDD-DD025DF79853}|apiGestores.csproj|solutionrelative:controllers\\gestorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43B7526-BF64-4592-8FDD-DD025DF79853}|apiGestores.csproj|c:\\proyectostr\\genjun-proyectos\\proyectos\\p20r01_react_cdqv\\backend\\apigestores\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D43B7526-BF64-4592-8FDD-DD025DF79853}|apiGestores.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43B7526-BF64-4592-8FDD-DD025DF79853}|apiGestores.csproj|c:\\proyectostr\\genjun-proyectos\\proyectos\\p20r01_react_cdqv\\backend\\apigestores\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43B7526-BF64-4592-8FDD-DD025DF79853}|apiGestores.csproj|solutionrelative:context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43B7526-BF64-4592-8FDD-DD025DF79853}|apiGestores.csproj|c:\\proyectostr\\genjun-proyectos\\proyectos\\p20r01_react_cdqv\\backend\\apigestores\\models\\gestores_bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43B7526-BF64-4592-8FDD-DD025DF79853}|apiGestores.csproj|solutionrelative:models\\gestores_bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43B7526-BF64-4592-8FDD-DD025DF79853}|apiGestores.csproj|c:\\proyectostr\\genjun-proyectos\\proyectos\\p20r01_react_cdqv\\backend\\apigestores\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D43B7526-BF64-4592-8FDD-DD025DF79853}|apiGestores.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43B7526-BF64-4592-8FDD-DD025DF79853}|apiGestores.csproj|c:\\proyectostr\\genjun-proyectos\\proyectos\\p20r01_react_cdqv\\backend\\apigestores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43B7526-BF64-4592-8FDD-DD025DF79853}|apiGestores.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P20R01_React_CDQV\\BACKEND\\apiGestores\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P20R01_React_CDQV\\BACKEND\\apiGestores\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwCwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T15:20:22.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P20R01_React_CDQV\\BACKEND\\apiGestores\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P20R01_React_CDQV\\BACKEND\\apiGestores\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-23T15:19:07.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GestoresController.cs",
+              "DocumentMoniker": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P20R01_React_CDQV\\BACKEND\\apiGestores\\Controllers\\GestoresController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GestoresController.cs",
+              "ToolTip": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P20R01_React_CDQV\\BACKEND\\apiGestores\\Controllers\\GestoresController.cs",
+              "RelativeToolTip": "Controllers\\GestoresController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwEoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T14:18:27.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P20R01_React_CDQV\\BACKEND\\apiGestores\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P20R01_React_CDQV\\BACKEND\\apiGestores\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-22T20:53:35.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P20R01_React_CDQV\\BACKEND\\apiGestores\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Context\\AppDbContext.cs",
+              "ToolTip": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P20R01_React_CDQV\\BACKEND\\apiGestores\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T20:46:34.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Gestores_Bd.cs",
+              "DocumentMoniker": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P20R01_React_CDQV\\BACKEND\\apiGestores\\Models\\Gestores_Bd.cs",
+              "RelativeDocumentMoniker": "Models\\Gestores_Bd.cs",
+              "ToolTip": "C:\\ProyectosTr\\GenJun-Proyectos\\Proyectos\\P20R01_React_CDQV\\BACKEND\\apiGestores\\Models\\Gestores_Bd.cs",
+              "RelativeToolTip": "Models\\Gestores_Bd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T20:42:24.531Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
