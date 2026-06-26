@@ -1,0 +1,12 @@
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\CapaEntidades\obj\Debug\CapaEntidades.csproj.AssemblyReference.cache
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P14R01_WCF_CDQV\Backend\CapaEntidades\obj\Debug\CapaEntidades.pdb
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P09R02_NCAPAS_CDQV\Backend\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P09R02_NCAPAS_CDQV\Backend\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P09R02_NCAPAS_CDQV\Backend\CapaEntidades\obj\Debug\CapaEntidades.csproj.AssemblyReference.cache
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P09R02_NCAPAS_CDQV\Backend\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P09R02_NCAPAS_CDQV\Backend\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\ProyectosTr\GenJun-Proyectos\Proyectos\P09R02_NCAPAS_CDQV\Backend\CapaEntidades\obj\Debug\CapaEntidades.pdb
